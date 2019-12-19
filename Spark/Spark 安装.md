@@ -6,13 +6,12 @@
 # 2. 安装spark   
 下载网址：https://archive.apache.org/dist/spark/spark-2.2.0/（我选择的是spark-2.2.0-bin-hadoop2.7.tgz）  
 # 3. 安装hadoop  
-下载网址：https://archive.apache.org/dist/hadoop/common/  
-（下载特慢，但是版本全）
-https://mirrors.tuna.tsinghua.edu.cn/apache/hadoop/common/  
-（**清华镜像，下载快，但是版本不全，我选择的是在这里下载的是hadoop-2.7.7**）
+下载网址：
+a. https://archive.apache.org/dist/hadoop/common/ (**下载特慢，但是版本全**）
+b. https://mirrors.tuna.tsinghua.edu.cn/apache/hadoop/common/（**清华镜像，下载快，但是版本不全，我选择的是在这里下载的是hadoop-2.7.7**）
 （**注意： 下载hadoop后建议以管理员权限解压，网上资料是这么说，我一开始没有管理员权限解压，先是解压错误，后面执行spark-shell遇到奇奇怪怪的问题**）  
 安装完成后执行hadoop,如下图则表示安装成功：  
-![fig 2](https://github.com/shiqiaodeng/blog/blob/master/Spark/images/2.png?raw=true "figure 2")  
+![fig 2](https://github.com/shiqiaodeng/blog/blob/master/Spark/images/2.png?raw=true "figure 2")
 如果出现如下情况：  
 **JAVA_HOME 未设置，hadoop 执行错误；  
 请检查java 路径是否有空格，如果有建议卸载重装，也可以通过替换通配符方式（网上教程建议，仅仅对于C盘安装在Promgram File 有效）**  
