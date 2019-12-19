@@ -1,8 +1,8 @@
 ### 1. 环境配置
 参考前面的几篇博客：  
-[Spark 安装.md](https://github.com/shiqiaodeng/blog/blob/master/Spark/Spark%20%E5%AE%89%E8%A3%85.md)  
-[kafka安装.md](https://github.com/shiqiaodeng/blog/blob/master/kafka/kafka%E5%AE%89%E8%A3%85.md)
-[zookeeper安装.md](https://github.com/shiqiaodeng/blog/blob/master/zookeeper/zookeeper%E5%AE%89%E8%A3%85.md)
+[Spark 安装.md](https://github.com/shiqiaodeng/blog/blob/master/Spark/Spark%20%E5%AE%89%E8%A3%85.md)    
+[kafka安装.md](https://github.com/shiqiaodeng/blog/blob/master/kafka/kafka%E5%AE%89%E8%A3%85.md)   
+[zookeeper安装.md](https://github.com/shiqiaodeng/blog/blob/master/zookeeper/zookeeper%E5%AE%89%E8%A3%85.md)   
 **注意：  
 Check "processed.output.dir" property in "stream-processor.properties" file. Create and set directory path for this property.  
 Set "stream-processor.log" file path in "log4j.properties" file.  
