@@ -25,7 +25,9 @@ https://github.com/steveloughran/winutils.git
 选择hadoop2.7.1 目录下的winutils.exe  
 (**注意：这里尽管我下载的是hadoop2.7.7，但是可以用hadoop2.7.1 目录下的winutils.exe，其他版本没试过**)  
 (2) 修改权限，在打开的cmd中输入:  
-D:\software\hadoop-2.7.7\bin\winutils.exe chmod 777 C:/tmp/hive
+```
+D:\software\hadoop-2.7.7\bin\winutils.exe chmod 777 C:/tmp/hive  
+```
 ![fig 4](https://github.com/shiqiaodeng/blog/blob/master/Spark/images/4.png?raw=true "figure 4")  
 （**注意： 先确保C:/tmp/hive 存在，否则遇到错误**：  
 ![fig 4](https://github.com/shiqiaodeng/blog/blob/master/Spark/images/4.png?raw=true "figure 4")  
