@@ -26,7 +26,7 @@ dataLogDir=D:/software/zookeeper-3.4.8/log
 ```
 zkServer.cmd(linux 执行zkServer.sh)
 ```
-![fig 2](https://github.com/shiqiaodeng/blog/blob/master/zookeeper/images/2.png?raw=true "figure 2")
+![fig 2](https://github.com/shiqiaodeng/blog/blob/master/zookeeper/images/2.png?raw=true "figure 2")   
 （注意打开命令行执行，不要使用终端，不知道为什么我用git bash 可以连上，但无法操作；
 建议将zookeeper/bin 目录添加到环境变量中，这样打开命令行就能执行）
 
@@ -46,7 +46,7 @@ zkCli.cmd -server localhost:2181
 ```
 help  
 ```
-![fig 5](https://github.com/shiqiaodeng/blog/blob/master/zookeeper/images/5.png?raw=true "figure 5")
+![fig 5](https://github.com/shiqiaodeng/blog/blob/master/zookeeper/images/5.png?raw=true "figure 5")  
 退出：  
 ```  
 quit  
