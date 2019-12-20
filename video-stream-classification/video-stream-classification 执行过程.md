@@ -37,6 +37,6 @@ JAVA_HOME 未设置，hadoop 执行错误；
 请检查java 路径是否有空格，如果有建议卸载重装，也可以通过替换通配符方式（网上教程建议，仅仅对于C盘安装在Promgram File 有效）  
 
 **2. 存储数据出错，如下图**  
-![fig 6](https://github.com/shiqiaodeng/blog/blob/master/video-stream-classification/images/3-2.png?raw=true "figure 6")    
+![fig 6](https://github.com/shiqiaodeng/blog/blob/master/video-stream-classification/images/3-6.png?raw=true "figure 6")    
 
 解决：检查/tmp/processed-data目录是否创建，没有则创建。一般/tmp 自动创建，processed-data需要自己创建。
